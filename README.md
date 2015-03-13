@@ -1,26 +1,47 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+Express JS Static Boilerplate
+============================
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+Express.js 4.0 Static Boilerplate is a simple Node.js Server using static files and directories for quick quality development and/or production.
 
-## Getting Started
+Features
+-----------
+- Static directory and files
+- Server watch for changes (Nodemon)
+- Grunt JS (Files Watch, CSS min, JS uglify)
+- no Jade
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+Usage
+-----------
+On your terminal.
 
-## Bugs and Issues
+Install the node packages.
+```ruby
+sudo npm install
+```
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+Run the server
+```ruby
+nodemon server.js
+```
 
-## Creator
+To watch and run the Grunt.js task on any change to your main files "app.js, app.css"
+```ruby
+grunt watch
+```
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+Want to do manually?! no problem.
+```ruby
+grunt build
+```
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Open your browser on the address 'localhost:3000'
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Done!
 
-## Copyright and License
+Author
+-----------
+Michael Lancaster
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+License
+-----------
+MIT
